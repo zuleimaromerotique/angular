@@ -1,0 +1,38 @@
+/* ProfileEditorComponent's private CSS styles */
+
+    * {
+        text-align: center;
+          margin: 0;
+          padding: 10px;
+         
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+.register{
+    width: 100vh;
+    background-color: rgb(249, 252, 251);
+    box-shadow: rgba(137, 29, 29, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;;
+      position: relative;
+      padding-top: 1rem;
+    }
+    
+    label {
+      text-align: left;
+       
+      display: block;
+      margin: 1.5 rem ;
+      font-weight: bold;
+      border-radius: 12px;
+    }
+
+    date{
+        background-color: aquamarine;
+    }
+    button{
+      padding: 1rem;
+      font-size: inherit;
+      background-color: aquamarine;
+    }
+    

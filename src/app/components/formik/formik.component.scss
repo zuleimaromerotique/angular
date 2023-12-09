@@ -1,0 +1,24 @@
+/* ProfileEditorComponent's private CSS styles */
+
+.formp{
+    width: 100vh;
+    background-color: rgb(219, 232, 227);
+    box-shadow: rgba(137, 29, 29, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;;
+      position: relative;
+      padding-top: 1rem;
+    }
+    
+    label {
+      text-align: center;
+   
+      display: block;
+      margin: 0 rem ;
+      font-weight: bold;
+    }
+    button{
+      padding: 1rem;
+      font-size: inherit;
+      background-color: aquamarine;
+    }
+    

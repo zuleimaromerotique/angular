@@ -1,0 +1,42 @@
+<div formGroupName="address">
+    <div class="register">
+        
+    <h1>Formulario de viajeros "Felices Fiestas"</h1>
+    <label>
+      Nombre:
+      <input type="text" formControlName="name">
+    </label>
+    <label>
+         Apellidos:
+        <input type="text" formControlName="lastname">
+      </label>
+      <label>
+        Tipo de Documento:
+        <input type="text" formControlName="tip">
+      </label>
+      <label>
+        Numero Documento:
+        <input type="text" formControlName="number">
+      </label>
+    <label>
+      Fecha de nacimiento:
+      <input type="Date" formenctype="fecha">
+    </label>
+    
+    <label>
+      Nacionalidad:
+      <input type="text" formControlName="nacionality">
+    </label>
+  
+    <label>
+        Correo:
+        <input type="text" formControlName="Email">
+      </label>
+    <label>
+      Sugerencias:
+      <input type="textarea" formControlName="zip">
+    </label>
+    <button (click)="onSubmit">Enviar</button>
+
+    </div>
+  </div>
